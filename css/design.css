@@ -1,0 +1,16 @@
+body {
+    background-color: #cccccc;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+.color {
+    background-color: mediumblue ;
+}
+
+.kiste {
+    height: 200px;
+    width: 200px;
+}
