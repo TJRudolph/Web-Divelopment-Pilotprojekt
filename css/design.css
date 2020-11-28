@@ -43,10 +43,35 @@ h1 {
 
 
 
+html, body {
+        height: 100%;
+        width: 100%;
+        margin: 10vw;
+        font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 2rem;
+    color: darkgrey;
+}
 
 
 
 
+
+
+
+.relative {position: relative;}
 
 .center {
     max-width: 60rem;
@@ -56,14 +81,6 @@ h1 {
 /**************** eo Globals ************/
 
 
-html,body1 {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-section {
-}
 
 .kopf {
     height: 20vh;
@@ -72,6 +89,8 @@ section {
 
 .kopf .logo {
     height: 10vh;
+    position: absolute;
+    right: 0;
 }
 
 
