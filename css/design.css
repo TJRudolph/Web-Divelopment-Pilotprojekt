@@ -7,7 +7,7 @@ h1 {
 }
 
 .color {
-    background-color: mediumblue ;
+    background-color: mediumspringgreen;
 }
 
 .kiste {
@@ -16,4 +16,15 @@ h1 {
 }
 .bkgr1 {
     background-image: url(../img/katze.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.schatten1 {
+    -webkit-box-shadow: 2px 2px 2px 2px #8AEBFF;
+    box-shadow: 2px 2px 2px 2px #8AEBFF;
+}
+
+.border_bottom {
+    border-bottom: 2px #000 dashed;
 }
