@@ -1,0 +1,136 @@
+
+
+body {
+    background-color: #cccccc;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+.color {
+    background-color: mediumspringgreen;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.color:hover {
+    background-color: orange;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+
+.kiste {
+    height: 200px;
+    width: 200px;
+}
+.bkgr1 {
+    background-image: url(../img/katze.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.schatten1 {
+    -webkit-box-shadow: 2px 2px 2px 2px #8AEBFF;
+    box-shadow: 2px 2px 2px 2px #8AEBFF;
+}
+
+.border_bottom {
+    border-bottom: 2px #000 dashed;
+}
+
+
+
+html, body {
+        height: 100%;
+        width: 100%;
+        margin: 10vw;
+        font-family: 'Roboto', sans-serif;
+}
+
+h1,h2 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 2rem;
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+.relative {position: relative;}
+
+.center {
+    max-width: 60rem;
+    margin: auto auto;
+}
+
+/**************** eo Globals ************/
+
+
+
+.kopf {
+    height: 20vh;
+    background-color: teal;
+}
+
+.kopf .logo {
+    height: 10vh;
+    position: absolute;
+    right: 0;
+}
+
+
+.content {
+    height: 60vh;
+    background-color: whitesmoke;
+}
+
+.footer {
+    height: 20vh;
+    background-color: darkgray;
+}
+
+
+.mum {
+    height: 60vh;
+    width: 60vh;
+    margin: auto auto;
+    background-color:gainsboro;
+    position: relative;
+}
+
+.kid {
+    height: 10%;
+    width: 10%;
+    background-color: darkmagenta;
+    color: white;
+    position: absolute; 
+    left: 45%;
+    top: 45%;
+    z-index: 5;
+} 
+
+.kid2 {
+    height: 10%;
+    width: 10%;
+    background-color: orange;
+    color: white;
+    position: absolute; 
+    left: 35%;
+    top: 35%; 
+    z-index: 4;
+}
