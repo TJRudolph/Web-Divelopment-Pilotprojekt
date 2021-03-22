@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.top {
+    height: 55vh;
+    margin: auto auto;
+    background-color: aqua;
+}
+
+.down {
+    height: 45vh;
+}
