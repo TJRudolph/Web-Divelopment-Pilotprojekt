@@ -15,7 +15,6 @@
 
         <section class="top">
             <nav>
-                <a href="index.php?page=home">Home</a>
                 <a href="index.php?page=shop">Shop</a>
                 <a href="index.php?page=kontakt">Kontakt</a>
             </nav>
@@ -23,9 +22,6 @@
 
     <?php // Das ist der Beginn eines PHP Codeblocks
             switch ($_GET['page']) {
-                case "home":
-                    include_once ("home.html");
-                    break;
                 case "shop":
                     include_once ("shop.html");
                     break;

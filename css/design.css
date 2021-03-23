@@ -1,0 +1,18 @@
+/********* Globals *********/
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/********** eo Globals **********/
+
+.top {
+    height: 55vh;
+    margin: auto auto;
+    background-color: aqua;
+}
+
+.down {
+    height: 45vh;
+}
